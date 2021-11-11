@@ -272,6 +272,8 @@ extern crate fiat_crypto;
 // Used for traits related to constant-time code.
 extern crate subtle;
 
+#[cfg(test)]
+extern crate sha2;
 #[cfg(all(test, feature = "serde"))]
 extern crate bincode;
 #[cfg(feature = "serde")]

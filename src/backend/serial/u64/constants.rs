@@ -35,6 +35,15 @@ pub(crate) const EDWARDS_D: FieldElement51 = FieldElement51([
     1442794654840575,
 ]);
 
+/// sqrt(-486664)
+pub(crate) const ED25519_SQRTAM2: FieldElement51 = FieldElement51([
+    1693982333959686,
+    608509411481997,
+    2235573344831311,
+    947681270984193,
+    266558006233600
+]);
+
 /// Edwards `2*d` value, equal to `2*(-121665/121666) mod p`.
 pub(crate) const EDWARDS_D2: FieldElement51 = FieldElement51([
     1859910466990425,
