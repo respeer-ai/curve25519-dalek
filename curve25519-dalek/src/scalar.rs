@@ -136,7 +136,7 @@ use {
 use rand_core::CryptoRngCore;
 
 #[cfg(feature = "digest")]
-use digest::generic_array::typenum::U64;
+use digest::typenum::U64;
 #[cfg(feature = "digest")]
 use digest::Digest;
 
